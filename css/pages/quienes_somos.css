@@ -1,0 +1,58 @@
+.quienes-somos-contenedor {
+    display: grid;
+    padding: 0rem 1.5rem;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+
+.quienes-btn {
+    width: 100%;
+}
+
+.quienes-somos-border {
+    padding-top: 1rem;
+}
+
+/*
+* Vista ~Small-Medium Portatil
+*/
+@media only screen and (max-width: 1400px) {
+    .quienes-somos-contenedor {
+        grid-template-columns: 1fr;
+        padding: 0rem 0.5rem;
+    }
+    .home-bottom {
+        grid-column: 1;
+    }
+}
+
+/*
+* Vista ~Tablet
+*/
+@media only screen and (max-width: 1200px) {
+    .quienes-somos-contenedor {
+        grid-template-columns: 1fr;
+        padding: 0rem 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .quienes-somos-contenedor {
+        grid-template-columns: 1fr;
+        padding: 0rem 0.5rem;
+    }
+}
+
+/*
+* Vista Mobile
+*/
+@media only screen and (max-width: 768px) {
+    .quienes-somos-contenedor {
+        grid-template-columns: 1fr;
+        padding: 0rem 0rem;
+    }
+    .quienes-somos-contenedor * iframe {
+        width: 80vw;
+    }
+}

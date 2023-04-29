@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>AWS - Infraestructura</title>
+        <link
+            rel="shortcut icon"
+            href="./imgs/base/aws_ico.png"
+            type="image/x-icon"
+        />
+        <link rel="stylesheet" href="./css/base.css" />
+        <link rel="stylesheet" href="./css/pages/home.css" />
+        <link rel="stylesheet" href="./css/pages/infraestructura.css" />
+    </head>
+    <body>
+        <header class="cabecera">
+            <div class="contenedor-logo">
+                <img src="./imgs/base/aws_logo_white.png" />
+                <h4>Amazon Web Services &copy;</h4>
+            </div>
+            <button class="btn-crear-cuenta-aws nav-button">
+                Cree una cuenta AWS
+            </button>
+        </header>
+
+        <nav>
+            <ul class="contenedor-menu-nav">
+                <li>
+                    <a href="./home.html">Home</a>
+                </li>
+                <li>
+                    <a href="/quienes_somos.html">Quienes Somos</a>
+                </li>
+                <li>
+                    <a href="./servicios.html">Servicios</a>
+                </li>
+                <li>
+                    <a href="./contacto.html">Contacto</a>
+                </li>
+                <li>
+                    <a href="./infraestructura.html">Infraestructura</a>
+                </li>
+            </ul>
+
+            <!-- Nav Menu & Lógica para Mobile -->
+            <input type="checkbox" id="dropdown-menu" name="dropdown-menu" />
+            <label for="dropdown-menu">
+                <div class="contenedor-boton-menu-nav-mobile">
+                    <img id="menu_img" src="./imgs/base/menu.png" />
+                </div>
+            </label>
+            <div class="mobile-nav-menu">
+                <ul class="mobile-nav-list">
+                    <li>
+                        <a href="./home.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="./quienes_somos.html">Quienes Somos</a>
+                    </li>
+                    <li>
+                        <a href="./servicios.html">Servicios</a>
+                    </li>
+                    <li>
+                        <a href="./contacto.html">Contacto</a>
+                    </li>
+                    <li>
+                        <a href="./infraestructura.html">Infraestructura</a>
+                    </li>
+                </ul>
+                <button class="btn-crear-cuenta-aws">
+                    Cree una cuenta AWS
+                </button>
+            </div>
+        </nav>
+
+        <main class="contenido">
+            <section>
+                <article class="art-home">
+                    <header>
+                        <h1>Infraestructura</h1>
+                    </header>
+                    <div class="infra-contenedor">
+                        <p>
+                            Amazon Web Services (AWS) es una plataforma de
+                            servicios en la nube que cuenta con una amplia
+                            presencia en todo el mundo. AWS opera en 25 regiones
+                            geográficas y 81 zonas de disponibilidad en todo el
+                            mundo. Cada región de AWS es una ubicación
+                            geográfica en la que se encuentran los centros de
+                            datos de AWS. Cada región de AWS está completamente
+                            aislada de las demás, lo que significa que los
+                            recursos en una región no pueden acceder a los
+                            recursos en otra región, a menos que se configure de
+                            manera específica.
+                            <br />
+                            <br />
+                            AWS también ofrece una serie de servicios globales,
+                            que no están restringidos a una sola región. Estos
+                            servicios incluyen Amazon Route 53 (un servicio de
+                            DNS), Amazon CloudFront (un servicio de distribución
+                            de contenido), AWS Identity and Access Management
+                            (IAM) y muchos otros. En general, la amplia
+                            presencia geográfica de AWS permite a las empresas
+                            desplegar sus aplicaciones y servicios en una amplia
+                            variedad de ubicaciones en todo el mundo, lo que les
+                            permite ofrecer una experiencia de usuario rápida y
+                            confiable a sus clientes en todo el mundo.
+                        </p>
+                        <br />
+                        <img src="./imgs/inframapa.jpg" />
+                    </div>
+                </article>
+            </section>
+            <aside class="banner-certs">
+                <h1>Certificados AWS</h1>
+                <div class="certs-gallery">
+                    <img src="./imgs/aws_certs/aws_cloud_practitioner.png" />
+                    <img src="./imgs/aws_certs/aws_solutions_architect.png" />
+                </div>
+                <button class="btn-cert-aws">Comenzar</button>
+            </aside>
+        </main>
+
+        <footer>
+            <div class="pie">
+                <div>
+                    Información sobre AWS
+                    <ul>
+                        <li>¿Qué es AWS?</li>
+                        <li>¿Qué es la informática en la nube?</li>
+                        <li>¿Qué es DevOps?</li>
+                        <li>¿Qué es un contenedor?</li>
+                        <li>¿Qué es un lago de datos?</li>
+                        <li>Seguridad en la nube de AWS</li>
+                    </ul>
+                </div>
+                <div>
+                    Recursos para AWS
+                    <ul>
+                        <li>Introducción</li>
+                        <li>Formación técnica y certificación</li>
+                        <li>Biblioteca de soluciones de AWS</li>
+                        <li>Centro de arquitectura</li>
+                        <li>Preguntas frecuentes</li>
+                        <li>Socios de AWS</li>
+                    </ul>
+                </div>
+                <div>
+                    Desarrolladores en AWS
+                    <ul>
+                        <li>Centro de desarrolladores</li>
+                        <li>SDK y herramientas</li>
+                        <li>.NET en AWS</li>
+                        <li>Python en AWS</li>
+                        <li>Java en AWS</li>
+                        <li>PHP en AWS</li>
+                    </ul>
+                </div>
+                <div>
+                    Ayuda
+                    <ul>
+                        <li>Contacto</li>
+                        <li>Centro de conocimientos</li>
+                        <li>AWS re:Post</li>
+                        <li>Legal</li>
+                        <li>Carreras en AWS</li>
+                        <li>Soporte técnico</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pie-redes">
+                <img width="30" src="./imgs/social_medias/linkedin.png" />
+                <img width="30" src="./imgs/social_medias/facebook.png" />
+                <img width="30" src="./imgs/social_medias/youtube.png" />
+                <img width="30" src="./imgs/social_medias/github.png" />
+                <img width="30" src="./imgs/social_medias/twitch.png" />
+            </div>
+            <div class="pie-copy">
+                Privacidad | Términos del sitio | Preferencias de cookies | ©
+                2023, Amazon Web Services, Inc. o sus filiales. Todos los
+                derechos reservados.
+            </div>
+        </footer>
+    </body>
+</html>

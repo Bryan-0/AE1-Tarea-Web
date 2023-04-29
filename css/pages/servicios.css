@@ -1,0 +1,75 @@
+.aws-servicios {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    padding: 2rem 1rem;
+    gap: 1rem;
+}
+
+.tarjeta {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 0.5px 0.5px 2px 0.5px rgba(20, 19, 20, 1);
+    transition: box-shadow 250ms linear;
+    position: relative;
+    overflow: hidden;
+}
+
+.tarjeta:hover {
+    box-shadow: 0.5px 0.5px 3px 3px rgb(211, 127, 0);
+}
+
+.free-tier {
+    position: absolute;
+    color: white;
+    padding: 0.5rem;
+    transform: rotate(45deg);
+    right: -15px;
+    top: 30px;
+    background-color: #232f3e;
+    border-radius: 12px 5px 5px;
+}
+
+.contenido {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.contenido aside {
+    display: none;
+}
+
+.tarjeta img {
+    width: 100px;
+}
+
+.alternative {
+    color: #232f3e;
+    background-color: white;
+    box-shadow: 0.5px 0.5px 3px 0.5px rgba(20, 19, 20, 1);
+}
+
+/*
+* Vista Mobile
+*/
+@media only screen and (max-width: 768px) {
+    .art-home div img {
+        width: 30%;
+    }
+    .aws-servicios {
+        grid-template-columns: 1fr;
+        padding: 1rem 0em;
+    }
+    .free-tier {
+        transform: rotate(0deg);
+        right: 0px;
+        top: 0px;
+        border-radius: 0px;
+    }
+    .tarjeta h1 {
+        margin-top: 2rem;
+    }
+}

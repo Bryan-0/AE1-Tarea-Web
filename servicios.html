@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>AWS - Servicios</title>
+        <link
+            rel="shortcut icon"
+            href="./imgs/base/aws_ico.png"
+            type="image/x-icon"
+        />
+        <link rel="stylesheet" href="./css/base.css" />
+        <link rel="stylesheet" href="./css/pages/home.css" />
+        <link rel="stylesheet" href="./css/pages/servicios.css" />
+    </head>
+    <body>
+        <header class="cabecera">
+            <div class="contenedor-logo">
+                <img src="./imgs/base/aws_logo_white.png" />
+                <h4>Amazon Web Services &copy;</h4>
+            </div>
+            <button class="btn-crear-cuenta-aws nav-button">
+                Cree una cuenta AWS
+            </button>
+        </header>
+
+        <nav>
+            <ul class="contenedor-menu-nav">
+                <li>
+                    <a href="./home.html">Home</a>
+                </li>
+                <li>
+                    <a href="/quienes_somos.html">Quienes Somos</a>
+                </li>
+                <li>
+                    <a href="./servicios.html">Servicios</a>
+                </li>
+                <li>
+                    <a href="./contacto.html">Contacto</a>
+                </li>
+                <li>
+                    <a href="./infraestructura.html">Infraestructura</a>
+                </li>
+            </ul>
+
+            <!-- Nav Menu & Lógica para Mobile -->
+            <input type="checkbox" id="dropdown-menu" name="dropdown-menu" />
+            <label for="dropdown-menu">
+                <div class="contenedor-boton-menu-nav-mobile">
+                    <img id="menu_img" src="./imgs/base/menu.png" />
+                </div>
+            </label>
+            <div class="mobile-nav-menu">
+                <ul class="mobile-nav-list">
+                    <li>
+                        <a href="./home.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="./quienes_somos.html">Quienes Somos</a>
+                    </li>
+                    <li>
+                        <a href="./servicios.html">Servicios</a>
+                    </li>
+                    <li>
+                        <a href="./contacto.html">Contacto</a>
+                    </li>
+                    <li>
+                        <a href="./infraestructura.html">Infraestructura</a>
+                    </li>
+                </ul>
+                <button class="btn-crear-cuenta-aws">
+                    Cree una cuenta AWS
+                </button>
+            </div>
+        </nav>
+
+        <main class="contenido">
+            <section>
+                <article class="art-home">
+                    <header>
+                        <h1>Servicios</h1>
+                    </header>
+                    <div class="servicios-contenedor">
+                        <div>
+                            <p>
+                                AWS ofrece una amplia gama de servicios en la
+                                nube para satisfacer las necesidades de una
+                                variedad de empresas y organizaciones. Estos
+                                servicios están diseñados para proporcionar una
+                                infraestructura escalable, segura y confiable
+                                para alojar aplicaciones, almacenar y procesar
+                                datos, y mucho más.
+                            </p>
+                        </div>
+
+                        <div class="aws-servicios">
+                            <div class="tarjeta">
+                                <div class="free-tier">¡Prueba gratuita!</div>
+                                <h1>EC2</h1>
+                                <img src="./imgs/aws_services/ec2.png" />
+                                <p>
+                                    Amazon Elastic Compute Cloud (EC2) es un
+                                    servicio de AWS que proporciona una
+                                    plataforma escalable de cómputo en la nube.
+                                    A través de EC2, los clientes pueden
+                                    alquilar servidores virtuales y
+                                    configurarlos según sus necesidades. Los
+                                    clientes pueden elegir entre una amplia gama
+                                    de tipos de instancias de EC2,
+                                    almacenamiento y redes para adaptarse a sus
+                                    requisitos de cómputo. Además, EC2 ofrece
+                                    flexibilidad para escalar recursos de
+                                    cómputo según la demanda, lo que lo
+                                    convierte en una solución ideal para
+                                    aplicaciones y sitios web en línea que
+                                    experimentan fluctuaciones en el tráfico.
+                                </p>
+                                <button
+                                    class="btn-crear-cuenta-aws alternative"
+                                >
+                                    Comenzar con EC2
+                                </button>
+                            </div>
+                            <div class="tarjeta">
+                                <h1>RDS</h1>
+                                <img src="./imgs/aws_services/rds.png" />
+                                <p>
+                                    Amazon Relational Database Service (RDS) es
+                                    un servicio de AWS que permite a los
+                                    clientes crear y administrar fácilmente
+                                    bases de datos relacionales en la nube. RDS
+                                    automatiza tareas tediosas como la
+                                    instalación, el parcheado y la copia de
+                                    seguridad de la base de datos, lo que
+                                    permite a los clientes centrarse en sus
+                                    aplicaciones. Los clientes pueden elegir
+                                    entre varios motores de bases de datos
+                                    populares y configurar su capacidad de
+                                    cómputo y almacenamiento según sus
+                                    necesidades. RDS ofrece alta disponibilidad,
+                                    replicación de bases de datos y seguridad
+                                    incorporada.
+                                </p>
+                                <button
+                                    class="btn-crear-cuenta-aws alternative"
+                                >
+                                    Comenzar con RDS
+                                </button>
+                            </div>
+                            <div class="tarjeta">
+                                <div class="free-tier">¡Siempre gratis!</div>
+                                <h1>VPC</h1>
+                                <img src="./imgs/aws_services/vpc.png" />
+                                <p>
+                                    Amazon Virtual Private Cloud (VPC) es un
+                                    servicio de AWS que permite a los clientes
+                                    crear una red virtual aislada en la nube.
+                                    Con VPC, los clientes pueden controlar
+                                    completamente su entorno de red, incluyendo
+                                    la selección de su propia dirección IP,
+                                    subredes y configuración de enrutamiento.
+                                    VPC permite a los clientes crear una red
+                                    virtual privada segura y escalable en la
+                                    nube y conectarla a su infraestructura local
+                                    existente a través de una conexión de red
+                                    privada encriptada. VPC también proporciona
+                                    opciones de seguridad avanzadas, como grupos
+                                    de seguridad y listas de control de acceso
+                                    de red, para proteger sus recursos en la
+                                    nube.
+                                </p>
+                                <button
+                                    class="btn-crear-cuenta-aws alternative"
+                                >
+                                    Comenzar con VPC
+                                </button>
+                            </div>
+                            <div class="tarjeta">
+                                <h1>SNS</h1>
+                                <img src="./imgs/aws_services/sns.jpeg" />
+                                <p>
+                                    Amazon Simple Notification Service (SNS) es
+                                    un servicio de AWS que permite a los
+                                    clientes enviar mensajes a través de
+                                    diferentes canales, como correo electrónico,
+                                    SMS, HTTP y otros servicios de AWS. SNS
+                                    simplifica la integración de aplicaciones al
+                                    proporcionar un servicio de mensajería
+                                    escalable y confiable. Los clientes pueden
+                                    enviar mensajes a múltiples destinatarios a
+                                    la vez y personalizar el contenido del
+                                    mensaje según las necesidades de su
+                                    aplicación. SNS también ofrece
+                                    características avanzadas, como filtrado de
+                                    mensajes y confirmaciones de entrega, para
+                                    mejorar la eficacia de la entrega de
+                                    mensajes. En resumen, SNS ayuda a los
+                                    clientes a integrar sus aplicaciones y
+                                    servicios de manera efectiva y confiable a
+                                    través de la mensajería.
+                                </p>
+                                <button
+                                    class="btn-crear-cuenta-aws alternative"
+                                >
+                                    Comenzar con SNS
+                                </button>
+                            </div>
+                            <div class="tarjeta">
+                                <h1>S3</h1>
+                                <img src="./imgs/aws_services/s3.jpeg" />
+                                <p>
+                                    Amazon Simple Storage Service (S3) es un
+                                    servicio de almacenamiento de objetos en la
+                                    nube de AWS. S3 permite a los clientes
+                                    almacenar y recuperar datos de forma segura
+                                    y escalable. Con S3, los clientes pueden
+                                    almacenar una cantidad ilimitada de objetos
+                                    en diferentes formatos, como imágenes,
+                                    videos, archivos y bases de datos, y acceder
+                                    a ellos desde cualquier lugar en Internet.
+                                    S3 ofrece alta durabilidad, disponibilidad y
+                                    rendimiento para garantizar que los datos
+                                    estén disponibles cuando los clientes los
+                                    necesiten. S3 también proporciona opciones
+                                    avanzadas de administración de datos, como
+                                    versionamiento, cifrado y políticas de ciclo
+                                    de vida, para ayudar a los clientes a
+                                    cumplir con los requisitos de cumplimiento y
+                                    seguridad.
+                                </p>
+                                <button
+                                    class="btn-crear-cuenta-aws alternative"
+                                >
+                                    Comenzar con S3
+                                </button>
+                            </div>
+                            <div class="tarjeta">
+                                <h1>SQS</h1>
+                                <img src="./imgs/aws_services/sqs.jpeg" />
+                                <p>
+                                    Amazon Simple Queue Service (SQS) es un
+                                    servicio de AWS que permite a los clientes
+                                    enviar y recibir mensajes entre componentes
+                                    de aplicaciones de manera escalable,
+                                    confiable y sin servidores. SQS funciona
+                                    como un servicio de cola, donde los mensajes
+                                    se almacenan temporalmente hasta que son
+                                    procesados por el receptor. Los clientes
+                                    pueden usar SQS para desacoplar componentes
+                                    de aplicaciones y mejorar la escalabilidad y
+                                    la tolerancia a errores de sus sistemas. SQS
+                                    admite dos tipos de colas: estándar y FIFO
+                                    (First-In-First-Out), cada una con
+                                    diferentes características y comportamientos
+                                    de entrega. Además, SQS proporciona
+                                    características avanzadas como reintentos de
+                                    entrega, retrasos en la entrega y
+                                    notificaciones de mensajes, para mejorar la
+                                    eficacia y confiabilidad de la entrega de
+                                    mensajes.
+                                </p>
+                                <button
+                                    class="btn-crear-cuenta-aws alternative"
+                                >
+                                    Comenzar con SQS
+                                </button>
+                            </div>
+                            <div class="tarjeta">
+                                <div class="free-tier">¡Prueba gratuita!</div>
+                                <h1>Lambda</h1>
+                                <img src="./imgs/aws_services/lambda.png" />
+                                <p>
+                                    AWS Lambda es un servicio de cómputo sin
+                                    servidor que permite a los clientes ejecutar
+                                    código en la nube sin tener que administrar
+                                    servidores. Con Lambda, los clientes pueden
+                                    cargar su código y definir eventos que
+                                    activan la ejecución de ese código, como el
+                                    cambio en un archivo en Amazon S3 o la
+                                    publicación de un mensaje en una cola de
+                                    Amazon SQS. Lambda escala automáticamente la
+                                    capacidad de cómputo para manejar el volumen
+                                    de eventos y cobra solo por el tiempo de
+                                    ejecución del código. Los clientes pueden
+                                    usar Lambda para crear aplicaciones y
+                                    servicios sin preocuparse por la
+                                    infraestructura subyacente y enfocarse en su
+                                    lógica de negocios. Lambda admite varios
+                                    lenguajes de programación, como Node.js,
+                                    Python, Java y C #, lo que permite a los
+                                    clientes elegir el lenguaje de programación
+                                    que mejor se adapte a sus necesidades.
+                                </p>
+                                <button
+                                    class="btn-crear-cuenta-aws alternative"
+                                >
+                                    Comenzar con Lambda
+                                </button>
+                            </div>
+                            <div class="tarjeta">
+                                <div class="free-tier">¡Siempre gratis!</div>
+                                <h1>Cloudformation</h1>
+                                <img
+                                    src="./imgs/aws_services/cloudformation.png"
+                                />
+                                <p>
+                                    AWS CloudFormation es un servicio de AWS que
+                                    permite a los clientes crear y administrar
+                                    recursos de AWS de manera automatizada y
+                                    coherente. CloudFormation utiliza
+                                    plantillas, que son archivos de texto que
+                                    describen los recursos de AWS y sus
+                                    dependencias, para crear y configurar los
+                                    recursos de AWS de manera predecible y
+                                    replicable. Los clientes pueden usar
+                                    CloudFormation para automatizar la creación
+                                    y configuración de sus recursos de AWS, lo
+                                    que les permite enfocarse en la lógica de
+                                    negocios y la entrega de aplicaciones en
+                                    lugar de la infraestructura subyacente.
+                                    CloudFormation también admite la
+                                    actualización y eliminación de los recursos
+                                    de AWS creados por la plantilla, lo que
+                                    permite a los clientes gestionar sus
+                                    recursos de AWS de manera eficiente y
+                                    escalable. CloudFormation es un servicio que
+                                    ayuda a los clientes a automatizar y
+                                    administrar sus recursos de AWS de manera
+                                    predecible y replicable utilizando
+                                    plantillas.
+                                </p>
+                                <button
+                                    class="btn-crear-cuenta-aws alternative"
+                                >
+                                    Comenzar con Cloudformation
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <aside class="banner-certs">
+                <h1>Certificados AWS</h1>
+                <div class="certs-gallery">
+                    <img src="./imgs/aws_certs/aws_cloud_practitioner.png" />
+                    <img src="./imgs/aws_certs/aws_solutions_architect.png" />
+                </div>
+                <button class="btn-cert-aws">Comenzar</button>
+            </aside>
+        </main>
+
+        <footer>
+            <div class="pie">
+                <div>
+                    Información sobre AWS
+                    <ul>
+                        <li>¿Qué es AWS?</li>
+                        <li>¿Qué es la informática en la nube?</li>
+                        <li>¿Qué es DevOps?</li>
+                        <li>¿Qué es un contenedor?</li>
+                        <li>¿Qué es un lago de datos?</li>
+                        <li>Seguridad en la nube de AWS</li>
+                    </ul>
+                </div>
+                <div>
+                    Recursos para AWS
+                    <ul>
+                        <li>Introducción</li>
+                        <li>Formación técnica y certificación</li>
+                        <li>Biblioteca de soluciones de AWS</li>
+                        <li>Centro de arquitectura</li>
+                        <li>Preguntas frecuentes</li>
+                        <li>Socios de AWS</li>
+                    </ul>
+                </div>
+                <div>
+                    Desarrolladores en AWS
+                    <ul>
+                        <li>Centro de desarrolladores</li>
+                        <li>SDK y herramientas</li>
+                        <li>.NET en AWS</li>
+                        <li>Python en AWS</li>
+                        <li>Java en AWS</li>
+                        <li>PHP en AWS</li>
+                    </ul>
+                </div>
+                <div>
+                    Ayuda
+                    <ul>
+                        <li>Contacto</li>
+                        <li>Centro de conocimientos</li>
+                        <li>AWS re:Post</li>
+                        <li>Legal</li>
+                        <li>Carreras en AWS</li>
+                        <li>Soporte técnico</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pie-redes">
+                <img width="30" src="./imgs/social_medias/linkedin.png" />
+                <img width="30" src="./imgs/social_medias/facebook.png" />
+                <img width="30" src="./imgs/social_medias/youtube.png" />
+                <img width="30" src="./imgs/social_medias/github.png" />
+                <img width="30" src="./imgs/social_medias/twitch.png" />
+            </div>
+            <div class="pie-copy">
+                Privacidad | Términos del sitio | Preferencias de cookies | ©
+                2023, Amazon Web Services, Inc. o sus filiales. Todos los
+                derechos reservados.
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+@font-face {
+    font-family: amazonFonts;
+    src: url("./AmazonEmber_Rg.woff2");
+}
+
+@font-face {
+    font-family: amazonFonts;
+    src: url("./AmazonEmber_Bd.woff2");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: amazonFonts;
+    src: url("./AmazonEmber_Lt.woff2");
+    font-weight: lighter;
+}
